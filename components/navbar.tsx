@@ -52,7 +52,7 @@ export function Navbar() {
 </div>
             <div className="flex flex-col">
               <span className="text-sm md:text-lg font-bold text-foreground leading-tight">
-                YPI Adnani
+                Yayasan Pendidikan Islam Adnani
               </span>
               <span className="text-[10px] md:text-xs text-muted-foreground hidden sm:block">
                 Pendidikan Islam Berkualitas
