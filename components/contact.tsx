@@ -8,45 +8,26 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Alamat",
-<<<<<<< HEAD
-    content: "Jl. Pendidikan No. 123, Kota Jakarta",
-    subContent: "Indonesia 12345",
-=======
     content: "Jl. Bakti Abri No.81, Panyabungan II, Kec. Panyabungan, Kabupaten Mandailing Natal",
     subContent: "Sumatera Utara 22976",
->>>>>>> 67b1d22 (first website)
   },
   {
     icon: Phone,
     title: "Telepon",
-<<<<<<< HEAD
-    content: "+62 21 1234 5678",
-=======
     content: "+62 812-7441-1106",
->>>>>>> 67b1d22 (first website)
-    subContent: "+62 812 3456 7890",
+    subContent: "+62 812 7441-1106",
   },
   {
     icon: Mail,
     title: "Email",
-<<<<<<< HEAD
     content: "info@ypiadnani.sch.id",
     subContent: "pendaftaran@ypiadnani.sch.id",
-=======
-    content: "minjawmobilelegend05@gmail.com",
-    subContent: "minjawmobilelegend05@gmail.com",
->>>>>>> 67b1d22 (first website)
   },
   {
     icon: Clock,
     title: "Jam Operasional",
-<<<<<<< HEAD
-    content: "Senin - Jumat: 07:00 - 16:00",
-    subContent: "Sabtu: 07:00 - 12:00",
-=======
-    content: "Senin - kamis: 07:00 - 16:00",
+    content: "Senin - Kamis: 07:00 - 16:00",
     subContent: "Jumat: 07:00 - 11:30",
->>>>>>> 67b1d22 (first website)
   },
 ]
 
@@ -58,15 +39,6 @@ export function Contact() {
     message: "",
   })
 
-<<<<<<< HEAD
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission
-    console.log("Form submitted:", formData)
-    // Reset form
-    setFormData({ name: "", email: "", phone: "", message: "" })
-  }
-=======
  const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault()
 
@@ -89,7 +61,6 @@ Pesan: ${formData.message}
     message: "",
   })
 }
->>>>>>> 67b1d22 (first website)
 
   return (
     <section id="contact" className="py-16 md:py-24 bg-card">
@@ -143,11 +114,7 @@ Pesan: ${formData.message}
             {/* Map Embed */}
             <div className="relative aspect-[16/10] md:aspect-[16/9] rounded-2xl overflow-hidden shadow-lg">
               <iframe
-<<<<<<< HEAD
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613!3d-6.194741399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen%20Nasional!5e0!3m2!1sen!2sid!4v1650000000000!5m2!1sen!2sid"
-=======
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.371530827594!2d99.55686046456806!3d0.8574654099411958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302bbfc4b3d678fd%3A0x1933dc7f779eb9e9!2sYAYASAN%20PENDIDIKAN%20ISLAM%20ADNANI!5e0!3m2!1sid!2sus!4v1778420474535!5m2!1sid!2sus" 
->>>>>>> 67b1d22 (first website)
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.3428827068986!2d99.55799772119035!3d0.8574654099408423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302bbfc4b3d678fd%3A0x1933dc7f779eb9e9!2sYAYASAN%20PENDIDIKAN%20ISLAM%20ADNANI!5e0!3m2!1sid!2sid!4v1778423580655!5m2!1sid!2sid"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -233,10 +200,7 @@ Pesan: ${formData.message}
                     required
                   />
                 </div>
-<<<<<<< HEAD
 
-=======
->>>>>>> 67b1d22 (first website)
                 <button
                   type="submit"
                   className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-primary text-primary-foreground font-medium rounded-xl hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
