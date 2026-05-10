@@ -4,6 +4,10 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, BookOpen } from "lucide-react"
+<<<<<<< HEAD
+=======
+import Image from "next/image";
+>>>>>>> 67b1d22 (first website)
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -40,12 +44,27 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 md:gap-3">
+<<<<<<< HEAD
             <div className="w-10 h-10 md:w-12 md:h-12 bg-primary rounded-xl flex items-center justify-center shadow-lg">
               <BookOpen className="w-5 h-5 md:w-6 md:h-6 text-primary-foreground" />
             </div>
             <div className="flex flex-col">
               <span className="text-sm md:text-lg font-bold text-foreground leading-tight">
                 YPI Adnani
+=======
+          <div className="w-16 h-16 md:w-19 md:h-19 rounded-xl overflow-hidden shadow-lg">
+  <Image
+    src="/download.png"
+    alt="Logo Sekolah"
+    width={48}
+    height={48}
+    className="w-full h-full object-cover"
+  />
+</div>
+            <div className="flex flex-col">
+              <span className="text-sm md:text-lg font-bold text-foreground leading-tight">
+                Yayasan Pendidikan Islam Adnani
+>>>>>>> 67b1d22 (first website)
               </span>
               <span className="text-[10px] md:text-xs text-muted-foreground hidden sm:block">
                 Pendidikan Islam Berkualitas
